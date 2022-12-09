@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            width: 100vw;
+            height: 100vh;
+            background-image: url("https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg");
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main{
+            height: 600px;
+            width: 500px;
+            background-color: #ddb786 ;
+            padding: 1rem;
+        }
+
+        .parent1{
+            width: 100%;
+            height: 15%;
+            /* border: 2px solid red; */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            text-transform: uppercase;
+            font-weight: 900;
+        }
+
+        .parent2{
+            width: 100%;
+            height: 75%;
+            /* border: 2px solid red; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .parent3{
+            width: 100%;
+            height: 10%;
+            /* border: 2px solid red; */
+        }
+
+        hr{
+            border: 2px solid brown;
+        }
+
+        .child1{
+            width: 100%;
+            height: 40%;
+            /* border: 2px solid red; */
+        }
+        
+            ul{
+                list-style: none;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                /* border: 2px solid green; */
+                height: 20%;
+            }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="parent1">
+            <h1>camper cafe</h1>
+            <p>2020</p>
+        </div>
+        <hr>
+        <div class="parent2">
+            <h1>Coffee</h1>
+            <div class="child1">
+                <ul>
+                    <li>French Villa</li>
+                    <li>Rs 100</li>
+                </ul>
+                <ul>
+                    <li>Caramel Macchiato 1</li>
+                    <li>Rs 90</li>
+                </ul>
+                <ul>
+                    <li>Pumkin Spice</li>
+                    <li>Rs 95</li>
+                </ul>
+                <ul>
+                    <li>Hazelnut</li>
+                    <li>Rs 80</li>
+                </ul>
+                <ul>
+                    <li>Macha </li>
+                    <li>Rs 100</li>
+                </ul>
+            </div>
+            <h1>Dessert</h1>
+            <div class="child1">
+                <ul>
+                    <li>Donut</li>
+                    <li>Rs 70</li>
+                </ul>
+                <ul>
+                    <li>Cherry Pie</li>
+                    <li>Rs 65</li>
+                </ul>
+                <ul>
+                    <li>Cheesecake</li>
+                    <li>Rs 72</li>
+                </ul>
+                <ul>
+                    <li>Chinnamon Roll</li>
+                    <li>Rs 100</li>
+                </ul>
+                
+            </div>
+        </div>
+        <hr>
+        <div class="parent3">
+
+        </div>
+    </div>
+</body>
+
+</html>
